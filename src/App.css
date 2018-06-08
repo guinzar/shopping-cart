@@ -1,28 +1,42 @@
 .App {
+  padding: 20px;
+  text-align: center;
+  width: 500px;
+  margin: 0px auto;
+}
+
+.Item {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+}
+
+.item-name {
+  width: 200px;
+  text-align: left;
+}
+.item-quantity {
+  width: 200px;
+}
+.item-quantity input {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.item-price {
+  width: 100px;
+}
+.item-subtotal {
+  width: 100px;
+  text-align: right;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.header {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
 }
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.total {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  padding-top: 10px;
 }
